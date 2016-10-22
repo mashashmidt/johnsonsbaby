@@ -18,7 +18,9 @@ img {
 
 
 .table-container {
-    
+    box-shadow: 0 3px 7px rgba(131,129,130, .75);
+    border-radius: 8px;
+    overflow: hidden;
     margin-top: 50px;
 }
 
