@@ -16,12 +16,10 @@ img {
 }
 
 .table-container {
-<<<<<<< HEAD
-=======
+
     box-shadow: 0 3px 7px rgba(131,129,130, .75);
     border-radius: 8px;
     overflow: hidden;
->>>>>>> origin/master
     margin-top: 50px;
 }
 
