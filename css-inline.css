@@ -102,3 +102,9 @@ p {
 .social-contacts {
     padding-left: 33px;
 }
+.background-bubble {
+    background-image: url('./img/background-bubble.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
