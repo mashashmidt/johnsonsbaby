@@ -11,13 +11,20 @@ img {
     display: block;
 }
 
+p {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #403d3d;
+}
+
 .main-table {
     background: linear-gradient(#eef7fd, #fcf2f4, #eef7fd);
 }
 
 .table-container {
-
-    box-shadow: 0 3px 7px rgba(131,129,130, .75);
+    box-shadow: 0 3px 7px rgba(131, 129, 130, .75);
     border-radius: 8px;
     overflow: hidden;
     margin-top: 50px;
@@ -34,45 +41,34 @@ img {
     padding-top: 27px;
     font-family: "Verdana", "Arial", sans-serif;
     font-size: 11px;
+    -webkit-text-size-adjust: 100%;
     line-height: 14px;
     font-weight: normal;
-    color: #5893ca;
+    color: #2886c8;
     vertical-align: middle;
 }
 
 .preheader .web-version a {
-    color: #5893ca;
+    color: #2886c8;
+}
+
+.menu td {
+    padding-top: 13px;
+    padding-bottom: 10px;
 }
 
 .menu .cell {
     border-right: 1px solid #fcdfe7;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
-.text-hello td {
+.text-hello {
     padding-left: 33px;
     padding-right: 33px;
-    padding-top: 20px;
-    font-family: "Arial", sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: normal;
-    color: #403d3d;
+    padding-top: 15px;
 }
 
-.text-hello td a {
-    color: #5893ca;
-}
-
-.text-list td {
-    padding-left: 33px;
-    padding-right: 33px;
-    font-family: "Arial", sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: normal;
-    color: #403d3d;
+.text-hello a {
+    color: #0070bb;
 }
 
 .shape-background {
