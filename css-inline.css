@@ -17,11 +17,14 @@ p {
     line-height: 20px;
     font-weight: normal;
     color: #403d3d;
-    
+}
+
+span {
+    display: block;
 }
 
 .main-table {
-    background: linear-gradient(#eef7fd, #fcf2f4, #eef7fd);
+    background: linear-gradient(#eef7fd, #fdf2f4, #eef7fd);
 }
 
 .table-container {
@@ -38,19 +41,8 @@ p {
     padding-top: 20px;
 }
 
-.preheader .web-version {
+.web-version {
     padding-top: 27px;
-    font-family: "Verdana", "Arial", sans-serif;
-    font-size: 11px;
-    -webkit-text-size-adjust: 100%;
-    line-height: 14px;
-    font-weight: normal;
-    color: #2886c8;
-    vertical-align: middle;
-}
-
-.preheader .web-version a {
-    color: #2886c8;
 }
 
 .menu td {
@@ -65,12 +57,8 @@ p {
 .text-hello {
     padding-left: 33px;
     padding-right: 33px;
-    padding-top: 15px;
-    padding-bottom: 8px;
-}
-
-.text-hello a {
-    color: #0070bb;
+    padding-top: 12px;
+    padding-bottom: 5px;
 }
 
 .promo {
@@ -89,33 +77,35 @@ p {
 
 .button {
     border-radius: 29px;
-    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.3),
-    0 4px 10px rgba(0,0,0,0.3)
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.3), 0 4px 10px rgba(0, 0, 0, 0.3)
 }
 
-.text-prove  {
+.text-prove {
     padding-left: 33px;
     padding-right: 33px;
-    padding-top: 28px;
-    padding-bottom: 28px;
-}
-
-
-.social-contacts,
-.social-projects {
-    font-family: "Verdana", "Arial", sans-serif;
-    font-size: 12px;
-    line-height: 14px;
-    font-weight: normal;
-    color: #b84a60;
-}
-
-.social-contacts {
-    padding-left: 33px;
+    padding-top: 25px;
+    padding-bottom: 23px;
 }
 
 .background-bubble-gel {
-    background-image: url('./img/background-bubble.jpg');
+    background-image: url("./img/background-bubble.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
+}
+
+.background-bubble-shampoo {
+    background-image: url("./img/background-bubble-shampoo.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.background-bubble-creme {
+    background-image: url("./img/background-bubble-creme.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.button {
+    border-radius: 29px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.3), 0 4px 10px rgba(0, 0, 0, 0.3);
 }
