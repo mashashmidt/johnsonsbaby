@@ -32,7 +32,7 @@ p {
 }
 
 .preheader {
-    padding-left: 15px;
+    padding-left: 13px;
     padding-right: 33px;
     padding-bottom: 25px;
     padding-top: 20px;
@@ -66,10 +66,18 @@ p {
     padding-left: 33px;
     padding-right: 33px;
     padding-top: 15px;
+    padding-bottom: 8px;
 }
 
 .text-hello a {
     color: #0070bb;
+}
+
+.promo {
+    font-family: "Arial", sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    color: #4b4b4b;
 }
 
 .shape-background {
@@ -79,17 +87,19 @@ p {
     background-position: center bottom;
 }
 
-.text-prove td {
+.button {
+    border-radius: 29px;
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.3),
+    0 4px 10px rgba(0,0,0,0.3)
+}
+
+.text-prove  {
     padding-left: 33px;
     padding-right: 33px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-family: "Arial", sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: normal;
-    color: #403d3d;
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
+
 
 .social-contacts,
 .social-projects {
@@ -103,9 +113,9 @@ p {
 .social-contacts {
     padding-left: 33px;
 }
-.background-bubble {
+
+.background-bubble-gel {
     background-image: url('./img/background-bubble.jpg');
     background-repeat: no-repeat;
     background-position: bottom;
-
 }
